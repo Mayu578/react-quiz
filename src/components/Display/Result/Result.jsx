@@ -9,7 +9,7 @@ export default function Result({ maxQuizLen, correctNumLen }) {
                 <span className={styles.resultHighLight}>
                     {`全${maxQuizLen}問中、${correctNumLen}問`}
                 </span>
-                でした！
+                正解でした！
             </div>
             <Confetti
                 width={3000}
